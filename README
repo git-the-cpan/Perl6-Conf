@@ -1,0 +1,24 @@
+This is an experimental distribution written in Perl 6
+
+Before installation you'll have to have Parrot and Rakudo 
+installed on your system and set the PARROT_DIR environment 
+variable to the directory in which the parrot executable 
+can be found.
+
+
+Othat than that normal Perl 5 installation process should
+work so
+
+perl Makefile.PL
+make
+make test
+make install
+
+
+In order for your script to find the installed version of
+your module you'll have to configure the PERL6LIB environment
+variable to point to the directories where the normal 
+perl 5 installation process will install your modules.
+
+(See the @INC of your perl 5 using perl -V)
+
