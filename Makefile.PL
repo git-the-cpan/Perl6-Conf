@@ -26,9 +26,12 @@ foreach my $t6 (glob File::Spec->catfile('t', '*.t6')) {
 }
 
 name           'Perl6-Conf';
-license        'perl';
+license        'artistic2';
 author         'Gabor Szabo <szabgab@gmail.com>';
-version        '0.01';
+abstract       'Experimental Perl 6 implementation of an INI file reader';
+distribution_type 'module';
+
+version        '0.02';
 requires       'perl'                     => '5.008000';
 requires       'File::Spec'               => '0';
 requires       'File::Copy'               => '0';
