@@ -31,11 +31,16 @@ author         'Gabor Szabo <szabgab@gmail.com>';
 abstract       'Experimental Perl 6 implementation of an INI file reader';
 distribution_type 'module';
 
-version        '0.02';
+version        '0.03';
 requires       'perl'                     => '5.008000';
 requires       'File::Spec'               => '0';
 requires       'File::Copy'               => '0';
 #all_from       'lib/Perl6/Conf.pm';
+#provides      
+#    Foo::Bar:
+#      file: lib/Foo/Bar.pm
+#      version: 0.27_02
+provides 'Perl6::Conf', {file => 'lib/Perl6/Conf.pm', version => '0.03'};
 
 test_requires  'Test::More'               => '0.47';
 no_index       'directory'                => qw{ t xt share inc eg };

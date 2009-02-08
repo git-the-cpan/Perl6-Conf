@@ -1,4 +1,7 @@
 
+v0.03 2009.02.08
+	Add provides key to Makefile.PL
+
 v0.02 2009.02.08
     Try to provide more information in META.yml
 
