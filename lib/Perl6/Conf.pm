@@ -12,7 +12,7 @@ TBD.
 
 =end pod 
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use Perl6::Conf::Grammar;
 

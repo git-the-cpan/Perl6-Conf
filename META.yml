@@ -18,11 +18,11 @@ no_index:
 provides:
   Perl6::Conf:
     file: lib/Perl6/Conf.pm
-    version: 0.03
+    version: 0.04
 requires:
   File::Copy: 0
   File::Spec: 0
   perl: 5.008000
 resources:
   repository: http://svn1.hostlocal.com/szabgab/trunk/Perl6-Conf
-version: 0.03
+version: 0.04
